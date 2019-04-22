@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5346" started-at="2019-04-22T06:47:48Z" finished-at="2019-04-22T06:47:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5346" started-at="2019-04-22T06:47:48Z" finished-at="2019-04-22T06:47:54Z">
+      <class name="Nasa.API.APIValidateFieldsTest">
+        <test-method status="PASS" signature="getData()[pri:0, instance:Nasa.API.APIValidateFieldsTest@343f4d3d]" name="getData" is-config="true" duration-ms="37" started-at="2019-04-22T06:47:48Z" finished-at="2019-04-22T06:47:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="validateQuery()[pri:0, instance:Nasa.API.APIValidateFieldsTest@343f4d3d]" name="validateQuery" duration-ms="3881" started-at="2019-04-22T06:47:49Z" finished-at="2019-04-22T06:47:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateQuery -->
+        <test-method status="PASS" signature="verifyStatusCode()[pri:1, instance:Nasa.API.APIValidateFieldsTest@343f4d3d]" name="verifyStatusCode" duration-ms="1232" started-at="2019-04-22T06:47:52Z" finished-at="2019-04-22T06:47:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCode -->
+        <test-method status="PASS" signature="verifyDate()[pri:0, instance:Nasa.API.APIValidateFieldsTest@343f4d3d]" name="verifyDate" duration-ms="69" started-at="2019-04-22T06:47:54Z" depends-on-methods="Nasa.API.APIValidateFieldsTest.verifyStatusCode" finished-at="2019-04-22T06:47:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDate -->
+        <test-method status="PASS" signature="verifyUrl()[pri:0, instance:Nasa.API.APIValidateFieldsTest@343f4d3d]" name="verifyUrl" duration-ms="6" started-at="2019-04-22T06:47:54Z" depends-on-methods="Nasa.API.APIValidateFieldsTest.verifyStatusCode" finished-at="2019-04-22T06:47:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+      </class> <!-- Nasa.API.APIValidateFieldsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
